@@ -1,0 +1,9 @@
+[
+    {
+        "id" : 0,
+        "project_name": "template",
+        "snapshot_src": "",
+        "github_url": "",
+        "deployed": " 'no' or 'link-url' "
+    }
+]

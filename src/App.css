@@ -1,0 +1,92 @@
+/* SCSS RGB 
+$blue-crayola: rgba(96, 128, 255, 1);
+$sky-blue-crayola: rgba(128, 236, 255, 1);
+$light-gray: rgba(200, 214, 215, 1);
+$space-cadet: rgba(33, 41, 92, 1);
+$russian-violet: rgba(13, 6, 48, 1); */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+h1 {
+  color: rgba(33, 41, 92, 1);
+  text-shadow: 0 10px 5px rgba(18, 0, 66, 0.5);
+  font-weight: bold;
+  padding-bottom: .5em;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.App-header, .App-footer {
+  background-color: #282c34;
+  background: linear-gradient(0deg, rgba(152, 136, 211, 1) 20%, rgba(58,52,126,1) 46%);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header img {
+  max-width: 100%;
+}
+
+.App-footer {
+  background: linear-gradient(0deg, rgba(58,52,126,1) 30%,  rgba(152, 136, 211, 1) 75%);
+  height: 2.5em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav-item {
+  font-family: "Akaya Telivigala", cursive;
+  text-decoration: none;
+  font-size: 2em;
+  color: rgba(4, 0, 37, 1);
+  transition-property: all;
+  transition-duration: .45s;
+  margin: 2px, 15px;
+}
+
+.nav-item:hover {
+  font-size: 2.2em;
+  /* background: linear-gradient(0deg, rgba(40, 44, 52, .5) 10%, rgba(108,56,170, .5) 50%, rgba(40, 44, 52, .5) 90%) */
+  text-shadow: 5px 5px 5px rgba(18, 0, 66, 0.5);
+}
+
+.page {
+  min-height: 50vh ;
+  background: rgb(220, 220, 255);
+  padding: 1.5em 1.5em 5em 1.5em;
+}
+
+.span-emph {
+  color: rgba(13, 6, 48, 1);
+  font-weight:bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
