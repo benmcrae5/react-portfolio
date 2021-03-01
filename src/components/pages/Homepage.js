@@ -1,10 +1,14 @@
 import React from 'react';
 import Portfolio from './Portfolio';
+import photo from "../../assets/ben-photo-cropped.jpg";
 
 const Homepage = () => {
     return (
         <section id="homepage" className="page">
-            <h1>Welcome to My Digifolio!</h1>
+            <div className="homepage-title">
+                <img src={photo} />
+                <h1>Welcome to My Digifolio!</h1>
+            </div>
             <p>I hope you're enjoying the page so far! 
                 (That icon at the top is super awesome, don't you think?) 
                 Feel free to browse around and see what you like! </p>

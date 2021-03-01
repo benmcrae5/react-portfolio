@@ -5,13 +5,13 @@ $light-gray: rgba(200, 214, 215, 1);
 $space-cadet: rgba(33, 41, 92, 1);
 $russian-violet: rgba(13, 6, 48, 1); */
 
-a {
+a, a:hover {
   text-decoration: none;
   color: inherit;
 }
 
-a:hover {
-  color: inherit;
+.active {
+  border-bottom: 2px solid rgba(13, 6, 48, 1);
 }
 
 h1 {
@@ -32,8 +32,7 @@ h1 {
   background: linear-gradient(0deg, rgba(152, 136, 211, 1) 20%, rgba(58,52,126,1) 46%);
   min-height: 10vh;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -43,13 +42,20 @@ h1 {
   max-width: 100%;
 }
 
+.homepage-title img {
+  height: 10em;
+}
+
 .App-footer {
   background: linear-gradient(0deg, rgba(58,52,126,1) 30%,  rgba(152, 136, 211, 1) 75%);
   height: 2.5em;
   position: absolute;
   bottom: 0;
   width: 100%;
-} */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} 
 
 .App-link {
   color: #61dafb;
@@ -57,7 +63,6 @@ h1 {
 
 .nav-item {
   font-family: "Akaya Telivigala", cursive;
-  text-decoration: none;
   font-size: 2em;
   color: rgba(4, 0, 37, 1);
   transition-property: all;
@@ -80,6 +85,10 @@ h1 {
 .span-emph {
   color: rgba(13, 6, 48, 1);
   font-weight:bold;
+}
+
+.icon-class {
+  height: 2em;
 }
 
 @keyframes App-logo-spin {

@@ -1,9 +1,23 @@
 [
     {
-        "id" : 0,
-        "project_name": "template",
-        "snapshot_src": "",
-        "github_url": "",
-        "deployed": " 'no' or 'link-url' "
+        "id" : 1,
+        "project_name": "LookUp",
+        "snapshot_src": "./project-imgs/look-up-thumbnail.PNG",
+        "github_url": "https://github.com/benmcrae5/lookup-by-ben-kara-kristin",
+        "deployed": "https://benmcrae5.github.io/lookup-by-ben-kara-kristin/"
+    },
+    {
+        "id" : 2,
+        "project_name": "Make A'Point",
+        "snapshot_src": "./project-imgs/Make A'Point Application Thumbnail.PNG",
+        "github_url": "https://github.com/kara-krzystan/Team-Project-Wk15",
+        "deployed": "https://team-project-wk15.herokuapp.com/"
+    },
+    {
+        "id" : 3,
+        "project_name": "Run Buddy",
+        "snapshot_src": "./project-imgs/run-buddy-thumbnail.PNG",
+        "github_url": "https://github.com/benmcrae5/run-buddy",
+        "deployed": " https://benmcrae5.github.io/run-buddy/"
     }
 ]
