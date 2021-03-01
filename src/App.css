@@ -99,6 +99,11 @@ h1 {
 .project-img {
   width: 100%;
 }
+
+.form-label {
+  width: 15%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

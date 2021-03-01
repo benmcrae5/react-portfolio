@@ -1,9 +1,11 @@
 import React from 'react';
+import ReachOutForm from "../ReachOutForm";
 
 const ReachOut = () => {
     return (
         <section id="ReachOut" className="page">
-            <h1>This is a ReachOut!</h1>
+            <h1>Use this form to reach out!</h1>
+            <ReachOutForm />
         </section>
     )
 }
