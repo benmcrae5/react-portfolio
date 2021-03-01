@@ -91,6 +91,14 @@ h1 {
   height: 2em;
 }
 
+.card-title {
+  background: rgb(220, 220, 255);
+  color: white;
+}
+
+.project-img {
+  width: 100%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

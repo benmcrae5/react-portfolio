@@ -1,9 +1,23 @@
 import React from 'react';
 
-const Project = () => {
+const Project = ({snapshot_src, project_name, github_url, deployed }) => {
+    
+
     return (
-        <section className="project-thing">
-            <h4>This is a Project! What more do you want??</h4>
+        <section className="col project-card">
+            <div class="portfolio-grid-1" id="image-1">
+                <a href={deployed}>
+                    <img 
+                        src={require(`../../assets/project-imgs/${snapshot_src}.PNG`).default} 
+                        alt="Coming Soon!" 
+                        className="project-img"
+                        key={snapshot_src}
+                    />
+                    <p>
+                        {project_name}
+                    </p>
+                </a>
+            </div>
         </section>
     )
 }
