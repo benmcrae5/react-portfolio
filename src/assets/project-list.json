@@ -18,6 +18,14 @@
         "project_name": "Run Buddy",
         "snapshot_src": "runBuddyImg",
         "github_url": "https://github.com/benmcrae5/run-buddy",
-        "deployed": " https://benmcrae5.github.io/run-buddy/"
+        "deployed": "https://benmcrae5.github.io/run-buddy/"
+    },
+    {
+        "id" : 4,
+        "project_name": "Taco 'Bout It!",
+        "snapshot_src": "tacoBoutItImg",
+        "github_url": "https://github.com/benmcrae5/taco-bout-it",
+        "deployed": "https://quiet-beach-11732.herokuapp.com/"
     }
+
 ]
