@@ -5,7 +5,7 @@ import LinkedInSymbol from "../../assets/In-Blue-Logo.png.original.png";
 const Footer = () => {
     return (
         <section className="App-footer d-flex flex-row">
-            <p>This is a footer! Wazzap??</p>
+            <p>Thank you for coming!</p>
             <a href="https://github.com/benmcrae5" target="_blank">
                 Ben's Github:   
                 <img src={GithubSymbol} className="icon-class" />
