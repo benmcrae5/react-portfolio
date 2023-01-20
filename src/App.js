@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header currentPage={currentPage} handlePages={handlePages} />
-      <Page />
+      <Page currentPage={currentPage} handlePages={handlePages} />
       <Footer />
     </div>
   );
