@@ -5,6 +5,7 @@ $light-gray: rgba(200, 214, 215, 1);
 $space-cadet: rgba(33, 41, 92, 1);
 $russian-violet: rgba(13, 6, 48, 1); */
 
+/* General CSS rules */ 
 a, a:hover {
   text-decoration: none;
   color: inherit;
@@ -71,13 +72,16 @@ h1 {
 }
 
 .nav-item:hover {
-  font-size: 2.2em;
+  font-size: 2.1em;
   /* background: linear-gradient(0deg, rgba(40, 44, 52, .5) 10%, rgba(108,56,170, .5) 50%, rgba(40, 44, 52, .5) 90%) */
   text-shadow: 5px 5px 5px rgba(18, 0, 66, 0.5);
 }
 
 .page {
+  display: flex;
+  justify-content: center;
   min-height: 50vh ;
+  width: 100vw;
   background: rgb(220, 220, 255);
   padding: 1.5em 1.5em 5em 1.5em;
 }
@@ -103,6 +107,34 @@ h1 {
 .form-label {
   width: 15%;
 }
+/* More specific/unique CSS*/
+.strike {
+  text-decoration: line-through;
+}
+
+/* css for the MiniGame */
+.mg-main{
+  width: 100%;
+}
+
+.character {  
+  border: 2px solid #282c34;
+  width: 90%;
+  margin: 1em;
+}
+
+.mg-board {
+  width: 100%;
+  min-height: 20vh;
+}
+
+.board-square {
+  width: 15vh;
+  height: 15vh;
+  min-width: 50px;
+  min-height: 50px;
+  border: 2px solid #282c34;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -111,4 +143,15 @@ h1 {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width: 991px) {
+  .nav-item {
+    font-size: 1.3em;
+    width: fit-content;
+  }
+  .nav-item:hover {
+    font-size: 1.35em;
+  }
+  
 }

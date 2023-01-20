@@ -4,7 +4,7 @@ import photo from "../../assets/ben-photo-cropped.jpg";
 
 const Homepage = () => {
     return (
-        <section id="homepage" className="page">
+        <section id="homepage" className="page row">
             <div className="homepage-title">
                 <img src={photo} />
                 <h1>Welcome to My Digifolio!</h1>

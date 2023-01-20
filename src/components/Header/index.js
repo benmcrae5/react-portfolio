@@ -6,7 +6,10 @@ const Header = ({ currentPage, handlePages }) => {
     console.log(currentPage);
     return (
         <div className="App-header navbar flex-column flex-wrap">
-            <img src={signatureIcon} alt="Image Not Found" />
+            <a href="#homepage" onClick={ () => handlePages("Homepage") }
+                >
+                    <img src={signatureIcon} alt="Image Not Found" />
+            </a>
             <Nav currentPage={currentPage} handlePages={handlePages}/>
         </div>
     )
