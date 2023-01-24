@@ -11,7 +11,7 @@ const Nav = ({ handlePages, currentPage }) => {
                     <a 
                         href={"#" + tab.toLowerCase()}
                         onClick={ () => handlePages(tab) }
-                        className= { "py-2 d-none d-md-inline-block " 
+                        className= { "py-2 d-none d-md-inline-block nav-link " 
                             + (currentPage === tab ? "active" : "") }
                     > {tab}
                     </a>

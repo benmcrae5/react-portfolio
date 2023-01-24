@@ -3,7 +3,10 @@ $blue-crayola: rgba(96, 128, 255, 1);
 $sky-blue-crayola: rgba(128, 236, 255, 1);
 $light-gray: rgba(200, 214, 215, 1);
 $space-cadet: rgba(33, 41, 92, 1);
-$russian-violet: rgba(13, 6, 48, 1); */
+$russian-violet: rgba(13, 6, 48, 1); 
+
+Linear Gradient Affect --> background: linear-gradient(0deg, rgba(40, 44, 52, .5) 10%, rgba(108,56,170, .5) 50%, rgba(40, 44, 52, .5) 90%);
+*/
 
 /* General CSS rules */ 
 a, a:hover {
@@ -62,6 +65,10 @@ h1 {
   color: #61dafb;
 }
 
+.nav {
+  height: 4em ;
+}
+
 .nav-item {
   font-family: "Akaya Telivigala", cursive;
   font-size: 2em;
@@ -71,9 +78,9 @@ h1 {
   margin: 2px, 15px;
 }
 
+
 .nav-item:hover {
   font-size: 2.1em;
-  /* background: linear-gradient(0deg, rgba(40, 44, 52, .5) 10%, rgba(108,56,170, .5) 50%, rgba(40, 44, 52, .5) 90%) */
   text-shadow: 5px 5px 5px rgba(18, 0, 66, 0.5);
 }
 
